@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110312.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110314.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110318.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110320.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110322.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110323.png'height="450" width="1017"/>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-17T11:03:06 ICT" name="SuiteTest" finished-at="2022-06-17T11:03:23 ICT" duration-ms="17034">
+    <groups>
+    </groups>
+    <test started-at="2022-06-17T11:03:06 ICT" name="User Login" finished-at="2022-06-17T11:03:23 ICT" duration-ms="17034">
+      <class name="com.nexsoft.test.login.UserLoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:06 ICT" name="init" finished-at="2022-06-17T11:03:11 ICT" duration-ms="4197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:11 ICT" name="cekSession" finished-at="2022-06-17T11:03:11 ICT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_btnSignIn_gotoSignInPage()[pri:1, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:11 ICT" name="test_btnSignIn_gotoSignInPage" finished-at="2022-06-17T11:03:12 ICT" duration-ms="1270" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110312.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_btnSignIn_gotoSignInPage -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:12 ICT" name="cekSession" finished-at="2022-06-17T11:03:13 ICT" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signInSuccess_gotoMainPage()[pri:2, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:13 ICT" name="test_signInSuccess_gotoMainPage" finished-at="2022-06-17T11:03:16 ICT" duration-ms="3130" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110314.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_signInSuccess_gotoMainPage -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:16 ICT" name="cekSession" finished-at="2022-06-17T11:03:16 ICT" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signInFail_usernameValid_passwordNotValid()[pri:3, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:16 ICT" name="test_signInFail_usernameValid_passwordNotValid" finished-at="2022-06-17T11:03:18 ICT" duration-ms="1704" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110318.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_signInFail_usernameValid_passwordNotValid -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:18 ICT" name="cekSession" finished-at="2022-06-17T11:03:18 ICT" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signInFail_usernameNotValid_passwordNotValid()[pri:4, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:18 ICT" name="test_signInFail_usernameNotValid_passwordNotValid" finished-at="2022-06-17T11:03:20 ICT" duration-ms="1665" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110320.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_signInFail_usernameNotValid_passwordNotValid -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:20 ICT" name="cekSession" finished-at="2022-06-17T11:03:20 ICT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signInFail_emptyUsernamePassword()[pri:5, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:20 ICT" name="test_signInFail_emptyUsernamePassword" finished-at="2022-06-17T11:03:22 ICT" duration-ms="1738" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110322.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_signInFail_emptyUsernamePassword -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:22 ICT" name="cekSession" finished-at="2022-06-17T11:03:22 ICT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signUp_newUser()[pri:6, instance:com.nexsoft.test.login.UserLoginTest@576d5deb]" started-at="2022-06-17T11:03:22 ICT" name="test_signUp_newUser" finished-at="2022-06-17T11:03:23 ICT" duration-ms="1458" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_110323.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_signUp_newUser -->
+      </class> <!-- com.nexsoft.test.login.UserLoginTest -->
+    </test> <!-- User Login -->
+  </suite> <!-- SuiteTest -->
+</testng-results>
