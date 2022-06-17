@@ -21,7 +21,7 @@ import org.testng.annotations.Test;
 public class UserLoginTest {
 	
 	protected WebDriver driver;
-
+	
 	public void delayMS(int inInt) {
 		try {
 			Thread.sleep(inInt);
@@ -134,7 +134,7 @@ public class UserLoginTest {
 	}
 	
 	@Test(priority = 6)
-	public void test_signUp_newUser() {
+	public void test_btnSignUp_gotoSignUpPage() {
 		CatalogActionPage catalog = PageFactory.initElements(driver, CatalogActionPage.class);
 		SignUpPage signUp = catalog.gotoSignInPage().gotoSignUpPage();
 		String result = signUp.getCheckSignUp();
@@ -143,7 +143,7 @@ public class UserLoginTest {
 		String file = "<img src='file://" + screenShot() + "'height=\"450\" width=\"1017\"/>";
 		Reporter.log(file);
 		
-		// verify login failed username password not valid
+		// verify sign up page
 		assertEquals(result, "User Information");
 	}
 	

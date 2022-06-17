@@ -34,6 +34,9 @@ public class SignInPage {
 	@FindBy(xpath = "//*[@id=\"Catalog\"]/form/p[1]")
 	private WebElement emptyUsernamePassword;
 	
+	@FindBy(xpath = "//a[normalize-space()='Sign In']")
+	private WebElement btnSignIn;
+	
 	
 	public MainPage loginValidUser(String username,String password) {
 		inputUsername.clear();
@@ -63,6 +66,10 @@ public class SignInPage {
 	
 	public String getCheckSignInEmptyUsernamePassword() {
 		return emptyUsernamePassword.getText();
+	}
+	
+	public String getCheckBtnSignIn() {
+		return btnSignIn.getText();
 	}
 
 

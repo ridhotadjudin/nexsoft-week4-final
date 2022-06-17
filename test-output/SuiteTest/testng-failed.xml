@@ -6,8 +6,8 @@
       <class name="com.nexsoft.test.login.UserLoginTest">
         <methods>
           <include name="init"/>
-          <include name="test_signInFail_emptyUsernamePassword"/>
           <include name="cekSession"/>
+          <include name="test_btnSignIn_gotoSignInPage"/>
         </methods>
       </class> <!-- com.nexsoft.test.login.UserLoginTest -->
     </classes>

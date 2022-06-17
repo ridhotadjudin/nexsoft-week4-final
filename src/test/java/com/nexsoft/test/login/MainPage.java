@@ -19,6 +19,10 @@ public class MainPage {
 	@FindBy(xpath = "//*[@id=\"MenuContent\"]/a[2]")
 	private WebElement btnLogout;
 	
+	@FindBy(xpath = "//a[normalize-space()='My Account']")
+	private WebElement btnMyAccount;
+	
+	
 	public String getUsername() {
 		return checkUsername.getText();
 	}
@@ -26,6 +30,11 @@ public class MainPage {
 	public CatalogActionPage gotoCatalogPage() {
 		btnLogout.click();
 		return PageFactory.initElements(driver, CatalogActionPage.class);
+	}
+	
+	public AccountPage gotoAccountPage() {
+		btnMyAccount.click();
+		return PageFactory.initElements(driver, AccountPage.class);
 	}
 	
 }
