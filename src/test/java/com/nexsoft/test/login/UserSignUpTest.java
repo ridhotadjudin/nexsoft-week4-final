@@ -67,7 +67,7 @@ public class UserSignUpTest {
 		SignUpPage signUp = catalog.gotoSignInPage().gotoSignUpPage();
 		
 		String result = signUp.createNewAccountUser(
-				"ikan", "passikan", "passikan", "ikan", "laut", "ikanlaut@gmail.com",
+				"ikancupa", "passikan", "passikan", "ikancupa", "laut", "ikanlautcupa@gmail.com",
 				"0821212121", "ini alamat ke 1", "ini alamat ke 2", "tangerang",
 				"banten", "40123", "indonesia"
 				).getCheckBtnSignIn();
@@ -79,13 +79,13 @@ public class UserSignUpTest {
 		delayMS(500);
 		jsExe.executeScript("window.scrollBy(0, 200)", "");
 		
-		MainPage main = catalog.gotoSignInPage().loginValidUser("ikan", "passikan");
+		MainPage main = catalog.gotoSignInPage().loginValidUser("ikancupa", "passikan");
 		String result2 = main.gotoAccountPage().getCheckAccounInfo();
 		
 		// verify create user new account
 		assertEquals(result, "Sign In");
 		// verify go to account page
-		assertEquals(result2, "ikan");
+		assertEquals(result2, "ikancupa");
 	}
 	
 }

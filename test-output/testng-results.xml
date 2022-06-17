@@ -1,31 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_142617.png'height="450" width="1017"/>]]>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143348.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143351.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143354.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143356.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143358.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143400.png'height="450" width="1017"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143404.png'height="450" width="1017"/>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-17T14:26:07 ICT" name="Default suite" finished-at="2022-06-17T14:26:19 ICT" duration-ms="12017">
+  <suite started-at="2022-06-17T14:33:40 ICT" name="SuiteTest" finished-at="2022-06-17T14:34:06 ICT" duration-ms="26039">
     <groups>
     </groups>
-    <test started-at="2022-06-17T14:26:07 ICT" name="Default test" finished-at="2022-06-17T14:26:19 ICT" duration-ms="12017">
-      <class name="com.nexsoft.test.login.UserSignUpTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.nexsoft.test.login.UserSignUpTest@7b36aa0c]" started-at="2022-06-17T14:26:07 ICT" name="init" finished-at="2022-06-17T14:26:12 ICT" duration-ms="5505" status="PASS">
+    <test started-at="2022-06-17T14:33:40 ICT" name="User Login" finished-at="2022-06-17T14:34:06 ICT" duration-ms="26039">
+      <class name="com.nexsoft.test.login.UserLoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:40 ICT" name="init" finished-at="2022-06-17T14:33:44 ICT" duration-ms="4113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserSignUpTest@7b36aa0c]" started-at="2022-06-17T14:26:12 ICT" name="cekSession" finished-at="2022-06-17T14:26:12 ICT" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:47 ICT" name="cekSession" finished-at="2022-06-17T14:33:47 ICT" duration-ms="245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cekSession -->
-        <test-method signature="test_signUp_createNewAccount()[pri:1, instance:com.nexsoft.test.login.UserSignUpTest@7b36aa0c]" started-at="2022-06-17T14:26:12 ICT" name="test_signUp_createNewAccount" finished-at="2022-06-17T14:26:19 ICT" duration-ms="6213" status="PASS">
+        <test-method signature="test_btnSignIn_gotoSignInPage()[pri:1, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:47 ICT" name="test_btnSignIn_gotoSignInPage" finished-at="2022-06-17T14:33:48 ICT" duration-ms="1192" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_142617.png'height="450" width="1017"/>]]>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143348.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_btnSignIn_gotoSignInPage -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:48 ICT" name="cekSession" finished-at="2022-06-17T14:33:49 ICT" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signInSuccess_gotoMainPage()[pri:2, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:49 ICT" name="test_signInSuccess_gotoMainPage" finished-at="2022-06-17T14:33:52 ICT" duration-ms="3497" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143351.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_signInSuccess_gotoMainPage -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:52 ICT" name="cekSession" finished-at="2022-06-17T14:33:52 ICT" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signInFail_usernameValid_passwordNotValid()[pri:3, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:52 ICT" name="test_signInFail_usernameValid_passwordNotValid" finished-at="2022-06-17T14:33:54 ICT" duration-ms="1793" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143354.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_signInFail_usernameValid_passwordNotValid -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:54 ICT" name="cekSession" finished-at="2022-06-17T14:33:55 ICT" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signInFail_usernameNotValid_passwordNotValid()[pri:4, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:55 ICT" name="test_signInFail_usernameNotValid_passwordNotValid" finished-at="2022-06-17T14:33:56 ICT" duration-ms="1788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143356.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_signInFail_usernameNotValid_passwordNotValid -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:56 ICT" name="cekSession" finished-at="2022-06-17T14:33:57 ICT" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signInFail_emptyUsernamePassword()[pri:5, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:57 ICT" name="test_signInFail_emptyUsernamePassword" finished-at="2022-06-17T14:33:58 ICT" duration-ms="1649" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143358.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_signInFail_emptyUsernamePassword -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:58 ICT" name="cekSession" finished-at="2022-06-17T14:33:59 ICT" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_btnSignUp_gotoSignUpPage()[pri:6, instance:com.nexsoft.test.login.UserLoginTest@2e3967ea]" started-at="2022-06-17T14:33:59 ICT" name="test_btnSignUp_gotoSignUpPage" finished-at="2022-06-17T14:34:00 ICT" duration-ms="1495" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143400.png'height="450" width="1017"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_btnSignUp_gotoSignUpPage -->
+      </class> <!-- com.nexsoft.test.login.UserLoginTest -->
+      <class name="com.nexsoft.test.login.UserSignUpTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.nexsoft.test.login.UserSignUpTest@25641d39]" started-at="2022-06-17T14:33:44 ICT" name="init" finished-at="2022-06-17T14:33:47 ICT" duration-ms="2503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="cekSession()[pri:0, instance:com.nexsoft.test.login.UserSignUpTest@25641d39]" started-at="2022-06-17T14:34:00 ICT" name="cekSession" finished-at="2022-06-17T14:34:00 ICT" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cekSession -->
+        <test-method signature="test_signUp_createNewAccount()[pri:1, instance:com.nexsoft.test.login.UserSignUpTest@25641d39]" started-at="2022-06-17T14:34:00 ICT" name="test_signUp_createNewAccount" finished-at="2022-06-17T14:34:06 ICT" duration-ms="5742" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression body > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'body > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)' is not a valid XPath expression.
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-0MGR9KI', ip: '10.0.0.221', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10845e9e4d3e9898619a92b2a6a558b7, findElement {using=xpath, value=body > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57978/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10845e9e4d3e9898619a92b2a6a558b7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression body > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string 'body > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)' is not a valid XPath expression.
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-0MGR9KI', ip: '10.0.0.221', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10845e9e4d3e9898619a92b2a6a558b7, findElement {using=xpath, value=body > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57978/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10845e9e4d3e9898619a92b2a6a558b7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+at com.nexsoft.test.login.AccountPage.getCheckAccounInfo(AccountPage.java:19)
+at com.nexsoft.test.login.UserSignUpTest.test_signUp_createNewAccount(UserSignUpTest.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143404.png'height="450" width="1017"/>]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_signUp_createNewAccount -->
       </class> <!-- com.nexsoft.test.login.UserSignUpTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- User Login -->
+  </suite> <!-- SuiteTest -->
 </testng-results>

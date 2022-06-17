@@ -12,7 +12,7 @@ public class AccountPage {
 		this.driver = driver;
 	}
 	
-	@FindBy(xpath = "//td[normalize-space()='ikan']")
+	@FindBy(xpath = "body > div:nth-child(2) > div:nth-child(1) > form:nth-child(1) > table:nth-child(2) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2)")
 	private WebElement checkUsername;
 	
 	public String getCheckAccounInfo() {

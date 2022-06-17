@@ -87,7 +87,7 @@ public class SignUpPage {
 		aiZip.sendKeys(zip);
 		aiCountry.sendKeys(country);
 
-//		btnCreateUser.click();
+		btnCreateUser.click();
 		return PageFactory.initElements(driver, SignInPage.class);
 	}
 

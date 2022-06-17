@@ -8,11 +8,44 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12.017</td><td></td><td></td></tr>
+<tr><th colspan="8">SuiteTest</th></tr>
+<tr><td><a href="#t0">User Login</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">26.039</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.nexsoft.test.login.UserSignUpTest</td><td><a href="#m0">test_signUp_createNewAccount</a></td><td rowspan="1">1655450772953</td><td rowspan="1">6213</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">SuiteTest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">User Login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nexsoft.test.login.UserSignUpTest</td><td><a href="#m0">test_signUp_createNewAccount</a></td><td rowspan="1">1655451240994</td><td rowspan="1">5742</td></tr><tr><th colspan="4">User Login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.nexsoft.test.login.UserLoginTest</td><td><a href="#m1">test_btnSignIn_gotoSignInPage</a></td><td rowspan="1">1655451227627</td><td rowspan="1">1192</td></tr><tr class="passedeven"><td><a href="#m2">test_btnSignUp_gotoSignUpPage</a></td><td rowspan="1">1655451239216</td><td rowspan="1">1495</td></tr><tr class="passedeven"><td><a href="#m3">test_signInFail_emptyUsernamePassword</a></td><td rowspan="1">1655451237273</td><td rowspan="1">1649</td></tr><tr class="passedeven"><td><a href="#m4">test_signInFail_usernameNotValid_passwordNotValid</a></td><td rowspan="1">1655451235137</td><td rowspan="1">1788</td></tr><tr class="passedeven"><td><a href="#m5">test_signInFail_usernameValid_passwordNotValid</a></td><td rowspan="1">1655451232957</td><td rowspan="1">1793</td></tr><tr class="passedeven"><td><a href="#m6">test_signInSuccess_gotoMainPage</a></td><td rowspan="1">1655451229166</td><td rowspan="1">3497</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.nexsoft.test.login.UserSignUpTest#test_signUp_createNewAccount</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_142617.png'height="450" width="1017"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>User Login</h2><h3 id="m0">com.nexsoft.test.login.UserSignUpTest#test_signUp_createNewAccount</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143404.png'height="450" width="1017"/></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression body &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; form:nth-child(1) &gt; table:nth-child(2) &gt; tbody:nth-child(1) &gt; tr:nth-child(1) &gt; td:nth-child(2) because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;body &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; form:nth-child(1) &gt; table:nth-child(2) &gt; tbody:nth-child(1) &gt; tr:nth-child(1) &gt; td:nth-child(2)&apos; is not a valid XPath expression.
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-0MGR9KI&apos;, ip: &apos;10.0.0.221&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [10845e9e4d3e9898619a92b2a6a558b7, findElement {using=xpath, value=body &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; form:nth-child(1) &gt; table:nth-child(2) &gt; tbody:nth-child(1) &gt; tr:nth-child(1) &gt; td:nth-child(2)}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57978/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 10845e9e4d3e9898619a92b2a6a558b7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
+	at com.nexsoft.test.login.AccountPage.getCheckAccounInfo(AccountPage.java:19)
+	at com.nexsoft.test.login.UserSignUpTest.test_signUp_createNewAccount(UserSignUpTest.java:83)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nexsoft.test.login.UserLoginTest#test_btnSignIn_gotoSignInPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143348.png'height="450" width="1017"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.nexsoft.test.login.UserLoginTest#test_btnSignUp_gotoSignUpPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143400.png'height="450" width="1017"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.nexsoft.test.login.UserLoginTest#test_signInFail_emptyUsernamePassword</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143358.png'height="450" width="1017"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.nexsoft.test.login.UserLoginTest#test_signInFail_usernameNotValid_passwordNotValid</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143356.png'height="450" width="1017"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.nexsoft.test.login.UserLoginTest#test_signInFail_usernameValid_passwordNotValid</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143354.png'height="450" width="1017"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.nexsoft.test.login.UserLoginTest#test_signInSuccess_gotoMainPage</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages"><img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143351.png'height="450" width="1017"/></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

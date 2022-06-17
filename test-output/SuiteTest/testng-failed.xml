@@ -3,13 +3,13 @@
 <suite name="Failed suite [SuiteTest]">
   <test thread-count="5" name="User Login(failed)">
     <classes>
-      <class name="com.nexsoft.test.login.UserLoginTest">
+      <class name="com.nexsoft.test.login.UserSignUpTest">
         <methods>
-          <include name="init"/>
           <include name="cekSession"/>
-          <include name="test_btnSignIn_gotoSignInPage"/>
+          <include name="init"/>
+          <include name="test_signUp_createNewAccount"/>
         </methods>
-      </class> <!-- com.nexsoft.test.login.UserLoginTest -->
+      </class> <!-- com.nexsoft.test.login.UserSignUpTest -->
     </classes>
   </test> <!-- User Login(failed) -->
 </suite> <!-- Failed suite [SuiteTest] -->
