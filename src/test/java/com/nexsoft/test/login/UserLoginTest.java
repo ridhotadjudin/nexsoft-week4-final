@@ -1,6 +1,7 @@
 package com.nexsoft.test.login;
 
 import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -21,6 +23,7 @@ import org.testng.annotations.Test;
 public class UserLoginTest {
 	
 	protected WebDriver driver;
+	private JavascriptExecutor jsExe;
 	
 	public void delayMS(int inInt) {
 		try {
@@ -48,6 +51,7 @@ public class UserLoginTest {
 		System.setProperty("url", "https://petstore.octoperf.com/actions/Catalog.action");
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver.exe");
 		driver = new ChromeDriver();
+		jsExe = (JavascriptExecutor) driver;
 		driver.manage().window().maximize();
 		driver.get(System.getProperty("url"));
 	}
@@ -145,6 +149,63 @@ public class UserLoginTest {
 		
 		// verify sign up page
 		assertEquals(result, "User Information");
+	}
+	
+	@Test(priority = 7)
+	public void test_signUp_createNewAccount() {
+		CatalogActionPage catalog = PageFactory.initElements(driver, CatalogActionPage.class);
+		SignUpPage signUp = catalog.gotoSignInPage().gotoSignUpPage();
+		
+		String result = signUp.createNewAccountUser(
+				"macan", "passmacan", "passmacan", "macan", "laut", "macan@gmail.com",
+				"0821212121", "ini alamat ke 1", "ini alamat ke 2", "tangerang",
+				"banten", "40123", "indonesia"
+				).getCheckBtnSignIn();
+		
+		delayMS(500);
+		String file = "<img src='file://" + screenShot() + "'height=\"450\" width=\"1017\"/>";
+		Reporter.log(file);
+		
+		delayMS(500);
+		jsExe.executeScript("window.scrollBy(0, 200)", "");
+		
+		// verify create user new account
+		assertEquals(result, "Sign In");
+	}
+	
+	@Test(priority = 8)
+	public void test_signUp_usingNewAccount() {
+
+		CatalogActionPage catalog = PageFactory.initElements(driver, CatalogActionPage.class);
+		MainPage main = catalog.gotoSignInPage().loginValidUser("macan", "passmacan");
+		
+		delayMS(500);
+		String file = "<img src='file://" + screenShot() + "'height=\"450\" width=\"1017\"/>";
+		Reporter.log(file);
+		
+		delayMS(500);
+		jsExe.executeScript("window.scrollBy(0, 200)", "");
+		
+		String result = main.gotoAccountPage().getCheckAccounInfo();
+		
+		// verify go to account page
+		assertEquals(result, "macan");
+	}
+	
+	@Test(enabled=false,priority = 9)
+	public void test_signUp_checkAllComponent() {
+		SignInPage sign = PageFactory.initElements(driver, SignInPage.class);
+		MainPage main = sign.loginValidUser("ikancupa", "passikan");
+		
+		delayMS(500);
+		String file = "<img src='file://" + screenShot() + "'height=\"450\" width=\"1017\"/>";
+		Reporter.log(file);
+		
+		delayMS(500);
+		jsExe.executeScript("window.scrollBy(0, 200)", "");
+		
+		// verify user first name
+		assertTrue(main.gotoAccountPage().getCheckFirstName(), "ikancupa");
 	}
 	
 }

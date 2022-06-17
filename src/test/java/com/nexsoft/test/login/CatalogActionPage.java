@@ -13,7 +13,7 @@ public class CatalogActionPage {
 		this.driver = driver;
 	}
 
-	@FindBy(xpath = "//a[normalize-space()='Sign In']")
+	@FindBy(xpath = "/html/body/div[1]/div[2]/div/a[2]")
 	private WebElement signIn;
 
 	public SignInPage gotoSignInPage() {

@@ -19,7 +19,7 @@ public class MainPage {
 	@FindBy(xpath = "//*[@id=\"MenuContent\"]/a[2]")
 	private WebElement btnLogout;
 	
-	@FindBy(xpath = "//a[normalize-space()='My Account']")
+	@FindBy(xpath = "/html/body/div[1]/div[2]/div/a[3]")
 	private WebElement btnMyAccount;
 	
 	

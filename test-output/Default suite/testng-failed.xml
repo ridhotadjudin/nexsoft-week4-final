@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nexsoft.test.login.UserSignUpTest">
+      <class name="com.nexsoft.test.login.UserLoginTest">
         <methods>
-          <include name="cekSession"/>
           <include name="init"/>
-          <include name="test_signUp_loginNewAccount"/>
+          <include name="cekSession"/>
+          <include name="test_signUp_checkAllComponent"/>
         </methods>
-      </class> <!-- com.nexsoft.test.login.UserSignUpTest -->
+      </class> <!-- com.nexsoft.test.login.UserLoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

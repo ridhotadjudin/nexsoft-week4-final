@@ -4,7 +4,6 @@
 	<test name="User Login">
 		<classes>
 			<class name="com.nexsoft.test.login.UserLoginTest"></class>
-			<class name="com.nexsoft.test.login.UserSignUpTest"></class>
 		</classes>
 	</test>
 </suite> 

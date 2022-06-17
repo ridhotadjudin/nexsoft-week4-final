@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>User Login</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 17 14:33:40 ICT 2022</td>
+<td>Started on:</td><td>Fri Jun 17 15:46:08 ICT 2022</td>
 </tr>
-<tr><td>Total time:</td><td>26 seconds (26039 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22838 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,114 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.nexsoft.test.login.UserSignUpTest.test_signUp_createNewAccount()'><b>test_signUp_createNewAccount</b><br>Test class: com.nexsoft.test.login.UserSignUpTest<br/>
-<a href="#Output-1700397528" onClick='toggleBox("Output-1700397528", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1700397528" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1700397528">
-<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143404.png'height="450" width="1017"/><br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression body &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; form:nth-child(1) &gt; table:nth-child(2) &gt; tbody:nth-child(1) &gt; tr:nth-child(1) &gt; td:nth-child(2) because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;body &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; form:nth-child(1) &gt; table:nth-child(2) &gt; tbody:nth-child(1) &gt; tr:nth-child(1) &gt; td:nth-child(2)&apos; is not a valid XPath expression.
-  (Session info: chrome=102.0.5005.115)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;DESKTOP-0MGR9KI&apos;, ip: &apos;10.0.0.221&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10845e9e4d3e9898619a92b2a6a558b7, findElement {using=xpath, value=body &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; form:nth-child(1) &gt; table:nth-child(2) &gt; tbody:nth-child(1) &gt; tr:nth-child(1) &gt; td:nth-child(2)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57978/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 10845e9e4d3e9898619a92b2a6a558b7
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
-	at com.nexsoft.test.login.AccountPage.getCheckAccounInfo(AccountPage.java:19)
-	at com.nexsoft.test.login.UserSignUpTest.test_signUp_createNewAccount(UserSignUpTest.java:83)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1700397528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1700397528'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression body &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; form:nth-child(1) &gt; table:nth-child(2) &gt; tbody:nth-child(1) &gt; tr:nth-child(1) &gt; td:nth-child(2) because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;body &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; form:nth-child(1) &gt; table:nth-child(2) &gt; tbody:nth-child(1) &gt; tr:nth-child(1) &gt; td:nth-child(2)&apos; is not a valid XPath expression.
-  (Session info: chrome=102.0.5005.115)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
-Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
-System info: host: &apos;DESKTOP-0MGR9KI&apos;, ip: &apos;10.0.0.221&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [10845e9e4d3e9898619a92b2a6a558b7, findElement {using=xpath, value=body &gt; div:nth-child(2) &gt; div:nth-child(1) &gt; form:nth-child(1) &gt; table:nth-child(2) &gt; tbody:nth-child(1) &gt; tr:nth-child(1) &gt; td:nth-child(2)}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\nexsoft\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57978}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57978/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 10845e9e4d3e9898619a92b2a6a558b7
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.getText(Unknown Source)
-	at com.nexsoft.test.login.AccountPage.getCheckAccounInfo(AccountPage.java:19)
-	at com.nexsoft.test.login.UserSignUpTest.test_signUp_createNewAccount(UserSignUpTest.java:83)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>5</td>
-<td>com.nexsoft.test.login.UserSignUpTest@25641d39</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -185,76 +77,100 @@ Session ID: 10845e9e4d3e9898619a92b2a6a558b7
 </tr>
 <tr>
 <td title='com.nexsoft.test.login.UserLoginTest.test_signInFail_emptyUsernamePassword()'><b>test_signInFail_emptyUsernamePassword</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
-<a href="#Output-445010547" onClick='toggleBox("Output-445010547", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-542598487" onClick='toggleBox("Output-542598487", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-445010547" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-445010547">
-<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143358.png'height="450" width="1017"/><br/>
+<a href="#Output-542598487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-542598487">
+<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_154623.png'height="450" width="1017"/><br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>com.nexsoft.test.login.UserLoginTest@2e3967ea</td></tr>
+<td>com.nexsoft.test.login.UserLoginTest@a38c7fe</td></tr>
 <tr>
-<td title='com.nexsoft.test.login.UserLoginTest.test_signInSuccess_gotoMainPage()'><b>test_signInSuccess_gotoMainPage</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
-<a href="#Output-1001351478" onClick='toggleBox("Output-1001351478", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.nexsoft.test.login.UserLoginTest.test_btnSignUp_gotoSignUpPage()'><b>test_btnSignUp_gotoSignUpPage</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
+<a href="#Output-1107201631" onClick='toggleBox("Output-1107201631", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1001351478" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1001351478">
-<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143351.png'height="450" width="1017"/><br/>
+<a href="#Output-1107201631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1107201631">
+<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_154624.png'height="450" width="1017"/><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nexsoft.test.login.UserLoginTest@a38c7fe</td></tr>
+<tr>
+<td title='com.nexsoft.test.login.UserLoginTest.test_signUp_usingNewAccount()'><b>test_signUp_usingNewAccount</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
+<a href="#Output-294651011" onClick='toggleBox("Output-294651011", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-294651011" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-294651011">
+<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_154630.png'height="450" width="1017"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.test.login.UserLoginTest@a38c7fe</td></tr>
+<tr>
+<td title='com.nexsoft.test.login.UserLoginTest.test_signUp_createNewAccount()'><b>test_signUp_createNewAccount</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
+<a href="#Output-1901824111" onClick='toggleBox("Output-1901824111", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1901824111" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1901824111">
+<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_154628.png'height="450" width="1017"/><br/>
 </div>
 </td>
 <td></td>
 <td>3</td>
-<td>com.nexsoft.test.login.UserLoginTest@2e3967ea</td></tr>
+<td>com.nexsoft.test.login.UserLoginTest@a38c7fe</td></tr>
 <tr>
 <td title='com.nexsoft.test.login.UserLoginTest.test_btnSignIn_gotoSignInPage()'><b>test_btnSignIn_gotoSignInPage</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
-<a href="#Output-1159234226" onClick='toggleBox("Output-1159234226", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1163404461" onClick='toggleBox("Output-1163404461", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1159234226" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1159234226">
-<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143348.png'height="450" width="1017"/><br/>
+<a href="#Output-1163404461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1163404461">
+<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_154614.png'height="450" width="1017"/><br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>com.nexsoft.test.login.UserLoginTest@2e3967ea</td></tr>
-<tr>
-<td title='com.nexsoft.test.login.UserLoginTest.test_signInFail_usernameNotValid_passwordNotValid()'><b>test_signInFail_usernameNotValid_passwordNotValid</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
-<a href="#Output-2144496344" onClick='toggleBox("Output-2144496344", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2144496344" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2144496344">
-<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143356.png'height="450" width="1017"/><br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>com.nexsoft.test.login.UserLoginTest@2e3967ea</td></tr>
-<tr>
-<td title='com.nexsoft.test.login.UserLoginTest.test_btnSignUp_gotoSignUpPage()'><b>test_btnSignUp_gotoSignUpPage</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
-<a href="#Output-498748934" onClick='toggleBox("Output-498748934", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-498748934" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-498748934">
-<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143400.png'height="450" width="1017"/><br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>com.nexsoft.test.login.UserLoginTest@2e3967ea</td></tr>
+<td>com.nexsoft.test.login.UserLoginTest@a38c7fe</td></tr>
 <tr>
 <td title='com.nexsoft.test.login.UserLoginTest.test_signInFail_usernameValid_passwordNotValid()'><b>test_signInFail_usernameValid_passwordNotValid</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
-<a href="#Output-1029148906" onClick='toggleBox("Output-1029148906", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-904409454" onClick='toggleBox("Output-904409454", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1029148906" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1029148906">
-<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_143354.png'height="450" width="1017"/><br/>
+<a href="#Output-904409454" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-904409454">
+<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_154619.png'height="450" width="1017"/><br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>com.nexsoft.test.login.UserLoginTest@2e3967ea</td></tr>
+<td>com.nexsoft.test.login.UserLoginTest@a38c7fe</td></tr>
+<tr>
+<td title='com.nexsoft.test.login.UserLoginTest.test_signInFail_usernameNotValid_passwordNotValid()'><b>test_signInFail_usernameNotValid_passwordNotValid</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
+<a href="#Output-2011912080" onClick='toggleBox("Output-2011912080", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2011912080" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2011912080">
+<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_154621.png'height="450" width="1017"/><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nexsoft.test.login.UserLoginTest@a38c7fe</td></tr>
+<tr>
+<td title='com.nexsoft.test.login.UserLoginTest.test_signInSuccess_gotoMainPage()'><b>test_signInSuccess_gotoMainPage</b><br>Test class: com.nexsoft.test.login.UserLoginTest<br/>
+<a href="#Output-1875532039" onClick='toggleBox("Output-1875532039", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1875532039" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1875532039">
+<img src='file://D:\selenium-workspace\Week4_Final\hasilScreenshot\20220617_154616.png'height="450" width="1017"/><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nexsoft.test.login.UserLoginTest@a38c7fe</td></tr>
 </table><p>
 </body>
 </html>

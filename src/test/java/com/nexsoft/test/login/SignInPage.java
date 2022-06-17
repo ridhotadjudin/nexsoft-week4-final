@@ -16,10 +16,10 @@ public class SignInPage {
 	@FindBy(xpath = "//p[normalize-space()='Please enter your username and password.']")
 	private WebElement checkSignIn;
 	
-	@FindBy(xpath = "//input[@name='username']")
+	@FindBy(xpath = "/html/body/div[2]/div/form/p[2]/input[1]")
 	private WebElement inputUsername;
 	
-	@FindBy(xpath = "//input[@name='password']")
+	@FindBy(xpath = "/html/body/div[2]/div/form/p[2]/input[2]")
 	private WebElement inputPassword;
 
 	@FindBy(xpath = "//input[@name='signon']")
@@ -34,7 +34,7 @@ public class SignInPage {
 	@FindBy(xpath = "//*[@id=\"Catalog\"]/form/p[1]")
 	private WebElement emptyUsernamePassword;
 	
-	@FindBy(xpath = "//a[normalize-space()='Sign In']")
+	@FindBy(xpath = "/html/body/div[1]/div[2]/div/a[2]")
 	private WebElement btnSignIn;
 	
 	
